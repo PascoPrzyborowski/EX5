@@ -108,15 +108,25 @@
 # print("Task6")
 # print()
 
+# #### Formel C/5 = F-32/9
+# temp = int(input("to enter a temperature "))
+# flag = str(input("to enter a shortcut for given scale (C for Celsius, F for Fahrenheit)"))
+
+# if flag == "C" or flag == "c":
+#     print (f"The temperature in Fahrenheit is {9*(temp/5)+32} degrees")
+# else:
+#     print (f"The temperature in Celsius is {5*((temp-32)/9)} degrees")   
+
+
 
 # Task 7
 
 # print()
 # print("Task7")
 # print()
-a = "*"
-count = 1
-countd = 6
+# a = "*"
+# count = 1
+# countd = 6
 #pfeilbild
 
 # for i in range(6):
@@ -144,8 +154,25 @@ countd = 6
 
 # Task 8
 
+# import time
+# start = time.time()
+
+
 # print()
 # print("Task8")
 # print()
 
+# count= 0
+# num1 = 0
+# num2 = 1
+# fib =  0
+# print("Index of Fibonacci :", count, "Result: ", fib)
+# for count in range(0,1000+1):
+#     fib = num1 + num2
+#     if count > 1:
+#         num1 = num2
+#         num2 = fib
+#     print("Index of Fibonacci :", count, "Result: ", fib)
+    
+# print("done! It took :", round((time.time()-start),5))
 
